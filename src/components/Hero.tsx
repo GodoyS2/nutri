@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform translate-x-2 translate-y-2"></div>
               <img 
-                src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg" 
+                src='./Assets/metabolomica.jpg'
                 alt="Dra. Juliana Garcia - Nutricionista Funcional" 
                 className="relative z-10 rounded-lg w-full h-auto object-cover shadow-lg"
               />

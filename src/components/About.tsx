@@ -10,8 +10,8 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform -translate-x-2 translate-y-2"></div>
               <img 
-                src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg" 
-                alt="Dra. Juliana Garcia em seu consultório" 
+                src="./Assets/jamille.jpg" 
+                alt="Dra. Jamille Godoy em seu consultório" 
                 className="relative z-10 rounded-lg w-full h-auto object-cover shadow-lg"
               />
             </div>
@@ -19,7 +19,7 @@ const About = () => {
           
           <div className="md:w-3/5 md:pl-16">
             <h2 className="text-3xl font-bold text-[#4B3B2A] mb-6">Sobre a Profissional</h2>
-            <h3 className="text-xl font-semibold text-[#8A7260] mb-4">Dra. Juliana Garcia</h3>
+            <h3 className="text-xl font-semibold text-[#8A7260] mb-4">Dra. Jamille Godoy</h3>
             <p className="text-[#4B3B2A] mb-6">
               Nutricionista funcional com mais de 15 anos de experiência em saúde integrativa,
               especialista em Metabolômica aplicada à nutrição clínica. Meu trabalho é baseado na 

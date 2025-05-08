@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">JG Nutrição</h3>
+            <h3 className="text-xl font-bold mb-4">JAMILLE GODOY</h3>
             <p className="mb-4 opacity-90">
               Nutrição funcional de alto nível com abordagem científica e personalizada 
               para transformar sua saúde de dentro para fora.

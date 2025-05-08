@@ -18,7 +18,7 @@ const Header = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#E3D9C7] shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-[#4B3B2A] font-bold text-xl md:text-2xl">JG Nutrição</a>
+          <a href="#" className="text-[#4B3B2A] font-bold text-xl md:text-2xl">JAMILLE GODOY</a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
