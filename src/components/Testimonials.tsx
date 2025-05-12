@@ -41,7 +41,12 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <div 
+              key={index} 
+              className="h-full"
+              data-aos="fade-up" 
+              data-aos-delay={index * 100}
+            >
               <TestimonialCard 
                 quote={testimonial.quote}
                 name={testimonial.name}

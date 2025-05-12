@@ -10,12 +10,12 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, name, title, image }) => {
   return (
-    <div className="bg-white rounded-lg p-6 shadow-sm transform transition-transform duration-300 hover:shadow-md hover:-translate-y-1">
-      <Quote className="text-[#E3D9C7] mb-4" size={32} />
+    <div className="bg-white rounded-lg p-8 shadow-sm h-full flex flex-col transform transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+      <Quote className="text-[#E3D9C7] mb-6" size={32} />
       
-      <p className="text-[#4B3B2A] mb-6 italic">"{quote}"</p>
+      <p className="text-[#4B3B2A] mb-8 flex-grow italic leading-relaxed">"{quote}"</p>
       
-      <div className="flex items-center">
+      <div className="flex items-center mt-auto">
         <img 
           src={image} 
           alt={name} 
