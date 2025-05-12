@@ -1,12 +1,12 @@
 import React from 'react';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section id="início" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-[#E3D9C7]">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+          <div className="md:w-1/2 mb-8 md:mb-0 md:pr-12" data-aos="fade-right">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#4B3B2A] leading-tight mb-4">
               Saúde Integrativa <span className="text-[#8A7260]">Personalizada</span>
             </h1>
@@ -19,14 +19,13 @@ const Hero = () => {
             </p>
             <a 
               href="https://wa.me/5567981379640" 
-              className="group inline-flex items-center bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
+              className="group inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-all duration-300 text-lg"
             >
-              <MessageCircle className="mr-2" size={20} />
+              <MessageCircle className="mr-3 transition-transform duration-300 group-hover:scale-110" size={24} />
               Agende sua consulta
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
             </a>
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2" data-aos="fade-left">
             <div className="relative">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform translate-x-2 translate-y-2"></div>
               <img 
