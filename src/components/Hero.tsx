@@ -1,5 +1,4 @@
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -17,15 +16,6 @@ const Hero = () => {
               Atendimento exclusivo com análises moleculares avançadas e protocolos 
               personalizados para alcançar seu potencial máximo de saúde e bem-estar.
             </p>
-            <a 
-              href="https://wa.me/5567981379640?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-all duration-300 text-lg"
-            >
-              <MessageCircle className="mr-3 transition-transform duration-300 group-hover:scale-110" size={24} />
-              Agende sua consulta
-            </a>
           </div>
           <div className="md:w-1/2" data-aos="fade-left">
             <div className="relative">
