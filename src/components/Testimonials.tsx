@@ -5,19 +5,19 @@ import TestimonialCard from './ui/TestimonialCard';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "A abordagem da Dra. Juliana transformou completamente minha saúde. Após anos de sintomas inexplicáveis, ela identificou a raiz dos meus problemas através da análise metabolômica.",
+      quote: "A abordagem da Dra. Jamille transformou completamente minha saúde. Após anos de sintomas inexplicáveis, ela identificou a raiz dos meus problemas através da análise metabolômica.",
       name: "Mariana Silva",
       title: "Paciente há 2 anos",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
     },
     {
-      quote: "Como médico, reconheço o rigor científico e a excelência do trabalho da Dra. Juliana. Seu conhecimento em metabolômica aplicada à nutrição é extraordinário.",
+      quote: "Como médico, reconheço o rigor científico e a excelência do trabalho da Dra. Jamille. Seu conhecimento em metabolômica aplicada à nutrição é extraordinário.",
       name: "Dr. Paulo Mendes",
       title: "Cardiologista",
       image: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg"
     },
     {
-      quote: "O curso de pós-graduação ministrado pela Dra. Juliana é incomparável. A profundidade do conteúdo e a aplicabilidade clínica mudaram minha prática profissional.",
+      quote: "O curso de pós-graduação ministrado pela Dra. Jamille é incomparável. A profundidade do conteúdo e a aplicabilidade clínica mudaram minha prática profissional.",
       name: "Ana Luíza Costa",
       title: "Nutricionista",
       image: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg"
@@ -35,7 +35,7 @@ const Testimonials = () => {
             ))}
           </div>
           <p className="text-[#4B3B2A] max-w-2xl mx-auto">
-            Conheça a experiência de pacientes e colegas que confiaram no trabalho da Dra. Juliana Garcia.
+            Conheça a experiência de pacientes e colegas que confiaram no trabalho da Dra. Jamille Godoy.
           </p>
         </div>
 
@@ -54,15 +54,13 @@ const Testimonials = () => {
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold text-[#4B3B2A] mb-4">Pronta para transformar sua saúde?</h3>
           <a 
-            href="#espera" 
+            href="https://wa.me/5567981379640" 
             className="inline-block bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
           >
-            Entrar na lista de espera
+            Agende sua consulta
           </a>
         </div>
       </div>
     </section>
   );
 };
-
-export default Testimonials;

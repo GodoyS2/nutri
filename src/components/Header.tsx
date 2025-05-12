@@ -31,12 +31,6 @@ const Header = () => {
                 {item}
               </a>
             ))}
-            <a 
-              href="#espera" 
-              className="px-4 py-2 bg-[#8A7260] text-white rounded hover:bg-[#4B3B2A] transition-colors duration-300"
-            >
-              Lista de Espera
-            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -62,19 +56,10 @@ const Header = () => {
                   {item}
                 </a>
               ))}
-              <a 
-                href="#espera" 
-                className="px-4 py-2 bg-[#8A7260] text-white rounded hover:bg-[#4B3B2A] transition-colors duration-300 inline-block"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Lista de Espera
-              </a>
             </div>
           </nav>
         )}
       </div>
     </header>
   );
-};
-
-export default Header;
+}

@@ -18,10 +18,10 @@ const Hero = () => {
               personalizados para alcançar seu potencial máximo de saúde e bem-estar.
             </p>
             <a 
-              href="#espera" 
+              href="https://wa.me/5567981379640" 
               className="group inline-flex items-center bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
             >
-              Entrar na lista de espera
+              Agende sua consulta
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
             </a>
           </div>
@@ -40,5 +40,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

@@ -5,7 +5,6 @@ import About from './components/About';
 import Services from './components/Services';
 import Course from './components/Course';
 import Testimonials from './components/Testimonials';
-import WaitingList from './components/WaitingList';
 import Footer from './components/Footer';
 
 function App() {
@@ -41,7 +40,6 @@ function App() {
         <Services />
         <Course />
         <Testimonials />
-        <WaitingList />
       </main>
       <Footer />
     </div>

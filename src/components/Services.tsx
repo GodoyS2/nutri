@@ -52,19 +52,17 @@ const Services = () => {
 
         <div className="mt-16 text-center">
           <p className="text-[#4B3B2A] mb-8 max-w-2xl mx-auto">
-            Os atendimentos são realizados de forma presencial em São Paulo ou online para pacientes de outras localidades.
+            Os atendimentos são realizados de forma online para pacientes de todo o Brasil.
             Cada caso é único e o tempo de acompanhamento varia conforme suas necessidades.
           </p>
           <a 
-            href="#espera" 
+            href="https://wa.me/5567981379640" 
             className="inline-block bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
           >
-            Quero iniciar meu processo
+            Agende sua consulta
           </a>
         </div>
       </div>
     </section>
   );
 };
-
-export default Services;
