@@ -16,12 +16,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/nutri.jamillegodoy/" className="hover:text-[#E3D9C7] transition-colors duration-300">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-[#E3D9C7] transition-colors duration-300">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="hover:text-[#E3D9C7] transition-colors duration-300">
-                <Youtube size={20} />
-              </a>
+              
             </div>
           </div>
 
