@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MessageCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -21,6 +21,7 @@ const Hero = () => {
               href="https://wa.me/5567981379640" 
               className="group inline-flex items-center bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
             >
+              <MessageCircle className="mr-2" size={20} />
               Agende sua consulta
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
             </a>
@@ -41,4 +42,4 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default Hero;

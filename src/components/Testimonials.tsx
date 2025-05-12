@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star } from 'lucide-react';
+import { Star, MessageCircle } from 'lucide-react';
 import TestimonialCard from './ui/TestimonialCard';
 
 const Testimonials = () => {
@@ -61,8 +61,9 @@ const Testimonials = () => {
           <h3 className="text-2xl font-semibold text-[#4B3B2A] mb-4">Pronta para transformar sua saúde?</h3>
           <a 
             href="https://wa.me/5567981379640" 
-            className="inline-block bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
+            className="inline-flex items-center bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
           >
+            <MessageCircle className="mr-2" size={20} />
             Agende sua consulta
           </a>
         </div>

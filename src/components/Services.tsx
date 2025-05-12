@@ -1,5 +1,5 @@
 import React from 'react';
-import { ClipboardList, Microscope, FileCheck } from 'lucide-react';
+import { ClipboardList, Microscope, FileCheck, MessageCircle } from 'lucide-react';
 import ServiceCard from './ui/ServiceCard';
 
 const Services = () => {
@@ -70,6 +70,7 @@ const Services = () => {
               href="https://wa.me/5567981379640" 
               className="inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300 text-lg font-medium"
             >
+              <MessageCircle className="mr-2" size={24} />
               Agende sua consulta
             </a>
           </div>
