@@ -13,12 +13,12 @@ function App() {
     document.title = "JG Nutrição Funcional - Especialista em Metabolômica";
     
     // Add smooth scroll behavior for internal anchor links only
-    document.querySelectorAll('a[href^="#"]:not([href^="https"])').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
         
         const href = this.getAttribute('href');
-        if (!href) return;
+        if (!href || href.includes('https')) return;
         
         const targetElement = document.querySelector(href);
         if (!targetElement) return;
