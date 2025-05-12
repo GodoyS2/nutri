@@ -27,7 +27,7 @@ const Testimonials = () => {
   return (
     <section className="py-16 md:py-24 bg-[#F4EEE7]">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold text-[#4B3B2A] mb-4">Reconhecimento Profissional</h2>
           <div className="flex justify-center mb-4">
             {[...Array(5)].map((_, i) => (
@@ -41,17 +41,18 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <TestimonialCard 
-              key={index}
-              quote={testimonial.quote}
-              name={testimonial.name}
-              title={testimonial.title}
-              image={testimonial.image}
-            />
+            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+              <TestimonialCard 
+                quote={testimonial.quote}
+                name={testimonial.name}
+                title={testimonial.title}
+                image={testimonial.image}
+              />
+            </div>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center" data-aos="fade-up">
           <h3 className="text-2xl font-semibold text-[#4B3B2A] mb-4">Pronta para transformar sua saúde?</h3>
           <a 
             href="https://wa.me/5567981379640" 
@@ -65,4 +66,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials
+export default Testimonials;

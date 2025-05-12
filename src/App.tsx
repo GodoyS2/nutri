@@ -1,14 +1,22 @@
 import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import Course from './components/Course';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-out'
+    });
+
     // Update the document title
     document.title = "JG Nutrição Funcional - Especialista em Metabolômica";
     
@@ -38,7 +46,6 @@ function App() {
         <Hero />
         <About />
         <Services />
-        <Course />
         <Testimonials />
       </main>
       <Footer />

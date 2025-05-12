@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <section id="atendimento" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold text-[#4B3B2A] mb-4">Como Funciona o Atendimento</h2>
           <p className="text-[#4B3B2A] max-w-2xl mx-auto">
             Um processo científico e personalizado para identificar a raiz dos seus sintomas
@@ -36,21 +36,21 @@ const Services = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-8 justify-center relative">
-          {/* Connection line for desktop */}
           <div className="hidden md:block absolute top-1/3 left-[calc(16.66%+32px)] right-[calc(16.66%+32px)] h-0.5 bg-[#E3D9C7] z-0"></div>
 
           {services.map((service, index) => (
-            <ServiceCard 
-              key={index}
-              icon={service.icon}
-              title={service.title}
-              description={service.description}
-              step={service.step}
-            />
+            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+              <ServiceCard 
+                icon={service.icon}
+                title={service.title}
+                description={service.description}
+                step={service.step}
+              />
+            </div>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center" data-aos="fade-up">
           <p className="text-[#4B3B2A] mb-8 max-w-2xl mx-auto">
             Os atendimentos são realizados de forma online para pacientes de todo o Brasil.
             Cada caso é único e o tempo de acompanhamento varia conforme suas necessidades.
@@ -67,4 +67,4 @@ const Services = () => {
   );
 };
 
-export default Services
+export default Services;

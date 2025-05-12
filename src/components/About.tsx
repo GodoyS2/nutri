@@ -6,7 +6,7 @@ const About = () => {
     <section id="sobre" className="py-16 md:py-24 bg-[#F4EEE7]">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-2/5 mb-8 md:mb-0">
+          <div className="md:w-2/5 mb-8 md:mb-0" data-aos="fade-right">
             <div className="relative">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform -translate-x-2 translate-y-2"></div>
               <img 
@@ -17,7 +17,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="md:w-3/5 md:pl-16">
+          <div className="md:w-3/5 md:pl-16" data-aos="fade-left">
             <h2 className="text-3xl font-bold text-[#4B3B2A] mb-6">Sobre a Profissional</h2>
             <h3 className="text-xl font-semibold text-[#8A7260] mb-4">Dra. Jamille Godoy</h3>
             <p className="text-[#4B3B2A] mb-6">
@@ -33,15 +33,15 @@ const About = () => {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm">
+              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
                 <BookOpen className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">Pesquisadora e Autora</p>
               </div>
-              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm">
+              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
                 <GraduationCap className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">PhD em Nutrição Funcional</p>
               </div>
-              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm">
+              <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="300">
                 <Award className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">Referência em Metabolômica</p>
               </div>
