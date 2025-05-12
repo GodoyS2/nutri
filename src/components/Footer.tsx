@@ -55,8 +55,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="mr-3 mt-1" size={18} />
                 <span className="opacity-90">
-                  Av. Paulista, 1000 - Conjunto 501<br />
-                  Bela Vista, São Paulo - SP
+                  Atendimento Online.
                 </span>
               </div>
             </div>
