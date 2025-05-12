@@ -13,7 +13,7 @@ const Footer = () => {
               para transformar sua saúde de dentro para fora.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-[#E3D9C7] transition-colors duration-300">
+              <a href="https://www.instagram.com/nutri.jamillegodoy/" className="hover:text-[#E3D9C7] transition-colors duration-300">
                 <Instagram size={20} />
               </a>
               <a href="#" className="hover:text-[#E3D9C7] transition-colors duration-300">
