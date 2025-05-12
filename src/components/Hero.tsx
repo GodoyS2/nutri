@@ -18,7 +18,9 @@ const Hero = () => {
               personalizados para alcançar seu potencial máximo de saúde e bem-estar.
             </p>
             <a 
-              href="https://wa.me/5567981379640" 
+              href="https://wa.me/5567981379640?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-all duration-300 text-lg"
             >
               <MessageCircle className="mr-3 transition-transform duration-300 group-hover:scale-110" size={24} />
