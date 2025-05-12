@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <Phone className="mr-3 mt-1" size={18} />
-                <span className="opacity-90">(11) 99999-9999</span>
+                <span className="opacity-90">(67) 98137-9640</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="mr-3 mt-1" size={18} />
