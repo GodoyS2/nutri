@@ -22,7 +22,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {['Início', 'Sobre', 'Atendimento', 'Curso', 'Contato'].map((item) => (
+            {['Início', 'Sobre', 'Atendimento', 'Contato'].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase()}`} 
@@ -46,7 +46,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden pt-4 pb-2">
             <div className="flex flex-col space-y-3">
-              {['Início', 'Sobre', 'Atendimento', 'Curso', 'Contato'].map((item) => (
+              {['Início', 'Sobre', 'Atendimento', 'Contato'].map((item) => (
                 <a 
                   key={item} 
                   href={`#${item.toLowerCase()}`} 
