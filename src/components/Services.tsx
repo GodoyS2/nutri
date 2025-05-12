@@ -6,20 +6,20 @@ const Services = () => {
   const services = [
     {
       icon: <ClipboardList size={32} className="text-[#8A7260]" />,
-      title: "Avaliação Clínica",
-      description: "Consulta detalhada para entender seu histórico, sintomas e objetivos de saúde. Análise completa de exames anteriores e avaliação de seu estilo de vida.",
+      title: "Avaliação Personalizada",
+      description: "Análise detalhada do seu histórico de saúde, hábitos alimentares e estilo de vida para identificar a raiz dos seus sintomas.",
       step: 1
     },
     {
       icon: <Microscope size={32} className="text-[#8A7260]" />,
-      title: "Análise Molecular",
-      description: "Utilizando os mais avançados exames de metabolômica, analisamos seu perfil bioquímico para identificar desequilíbrios e necessidades específicas.",
+      title: "Metabolômica Avançada",
+      description: "Interpretação profunda dos seus exames metabólicos para criar um mapa personalizado do seu metabolismo.",
       step: 2
     },
     {
       icon: <FileCheck size={32} className="text-[#8A7260]" />,
-      title: "Protocolo Personalizado",
-      description: "Desenvolvimento de um plano nutricional individualizado com alimentos, suplementos e mudanças de estilo de vida específicos para suas necessidades.",
+      title: "Plano Integrativo",
+      description: "Desenvolvimento de um protocolo nutricional personalizado que integra alimentação, suplementação e mudanças no estilo de vida.",
       step: 3
     }
   ];
@@ -28,18 +28,24 @@ const Services = () => {
     <section id="atendimento" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16" data-aos="fade-up">
-          <h2 className="text-3xl font-bold text-[#4B3B2A] mb-4">Como Funciona o Atendimento</h2>
-          <p className="text-[#4B3B2A] max-w-2xl mx-auto">
-            Um processo científico e personalizado para identificar a raiz dos seus sintomas
-            e criar uma abordagem única para sua saúde.
+          <span className="text-[#8A7260] font-medium mb-2 inline-block">Metodologia Exclusiva</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#4B3B2A] mb-6">Transforme Sua Saúde</h2>
+          <p className="text-[#4B3B2A] max-w-2xl mx-auto text-lg">
+            Uma abordagem científica e personalizada que vai além dos sintomas,
+            identificando e tratando a causa raiz dos seus desafios de saúde.
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 justify-center relative">
+        <div className="flex flex-col md:flex-row gap-8 justify-center relative mb-16">
           <div className="hidden md:block absolute top-1/3 left-[calc(16.66%+32px)] right-[calc(16.66%+32px)] h-0.5 bg-[#E3D9C7] z-0"></div>
 
           {services.map((service, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <div 
+              key={index} 
+              className="md:w-1/3"
+              data-aos="fade-up" 
+              data-aos-delay={index * 100}
+            >
               <ServiceCard 
                 icon={service.icon}
                 title={service.title}
@@ -50,17 +56,23 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center" data-aos="fade-up">
-          <p className="text-[#4B3B2A] mb-8 max-w-2xl mx-auto">
-            Os atendimentos são realizados de forma online para pacientes de todo o Brasil.
-            Cada caso é único e o tempo de acompanhamento varia conforme suas necessidades.
-          </p>
-          <a 
-            href="https://wa.me/5567981379640" 
-            className="inline-block bg-[#8A7260] text-white px-6 py-3 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300"
-          >
-            Agende sua consulta
-          </a>
+        <div className="bg-[#F4EEE7] rounded-2xl p-8 md:p-12 mt-16" data-aos="fade-up">
+          <div className="max-w-3xl mx-auto text-center">
+            <h3 className="text-2xl font-semibold text-[#4B3B2A] mb-6">
+              Atendimento Online para Todo o Brasil
+            </h3>
+            <p className="text-[#4B3B2A] mb-8 text-lg">
+              Consultas realizadas de forma online, permitindo que você receba um atendimento 
+              de excelência sem sair de casa. Cada protocolo é desenvolvido considerando sua 
+              individualidade e objetivos específicos.
+            </p>
+            <a 
+              href="https://wa.me/5567981379640" 
+              className="inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-colors duration-300 text-lg font-medium"
+            >
+              Agende sua consulta
+            </a>
+          </div>
         </div>
       </div>
     </section>
