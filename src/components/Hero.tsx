@@ -10,7 +10,7 @@ const Hero = () => {
               Seu metabolismo em  <span className="text-[#8A7260]">Tempo real</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-[#4B3B2A] mb-6">
-              Um verdadeiro raio-x que revela carências, excessos e impactos do seu estilo de vida. Descubra como seu corpo está funcionando de verdade com uma análise totalmente personalizada.
+                      Um verdadeiro raio-x que revela carências, excessos e impactos do seu estilo de vida. Descubra como seu corpo está funcionando de verdade com uma análise totalmente personalizada.
             </h2>
             <p className="text-[#4B3B2A] mb-8 text-lg">
               A Metabolômica é uma ciência “ômica” que permite identificar e quantificar os metabólitos — pequenas moléculas que refletem tudo o que está acontecendo no seu corpo em tempo real.
