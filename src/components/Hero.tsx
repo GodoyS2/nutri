@@ -13,7 +13,7 @@ const Hero = () => {
                       Um verdadeiro raio-x que revela carências, excessos e impactos do seu estilo de vida. Descubra como seu corpo está funcionando de verdade com uma análise totalmente personalizada.
             </h2>
             <p className="text-[#4B3B2A] mb-8 text-lg">
-              A Metabolômica é uma ciência “ômica” que permite identificar e quantificar os metabólitos — pequenas moléculas que refletem tudo o que está acontecendo no seu corpo em tempo real.<br>
+              A Metabolômica é uma ciência “ômica” que permite identificar e quantificar os metabólitos — pequenas moléculas que refletem tudo o que está acontecendo no seu corpo em tempo real.
 Ela revela como o seu organismo está funcionando de fato, mostrando desequilíbrios, carências, excessos e impactos do estilo de vida, alimentação, estresse e muito mais.
 
 É como um raio-x do metabolismo, fundamental para uma abordagem realmente personalizada da saúde.
