@@ -10,7 +10,7 @@ const Hero = () => {
               O Raio-X do Seu Metabolismo em <span className="text-[#8A7260]">Tempo real</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-[#4B3B2A] mb-6">
-              Nutrição funcional baseada em Metabolômica para transformar sua saúde
+              Descubra desequilíbrios, carências e impactos do seu estilo de vida com uma análise profunda e personalizada do funcionamento do seu corpo.
             </h2>
             <p className="text-[#4B3B2A] mb-8 text-lg">
               Atendimento exclusivo com análises moleculares avançadas e protocolos 
