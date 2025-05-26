@@ -31,7 +31,7 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
                 <GraduationCap className="text-[#8A7260] mb-2" size={24} />
-                <p className="text-center text-[#4B3B2A] font-medium">Pesquisadora e Autora</p>
+                <p className="text-center text-[#4B3B2A] font-medium">Exames laboratoriais aplicados à prática clínica</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
                 <GraduationCap className="text-[#8A7260] mb-2" size={24} />
