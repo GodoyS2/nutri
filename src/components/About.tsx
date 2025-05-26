@@ -25,9 +25,7 @@ const About = () => {
 Minha atuação é baseada em nutrição de precisão, com foco total em resultados reais, sustentáveis e personalizados, promovendo equilíbrio metabólico, saúde plena e longevidade.
             </p>
             <p className="text-[#4B3B2A] mb-8">
-              Com formação internacional e constante atualização científica, trago as mais recentes 
-              descobertas no campo da nutrição funcional e medicina de precisão para meus pacientes, 
-              sempre com um olhar humanizado e integral para a saúde.
+              Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA) nas seguintes áreas:
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
