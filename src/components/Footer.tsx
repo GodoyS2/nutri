@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/nutri.jamillegodoy/" className="hover:text-[#E3D9C7] transition-colors duration-300">
                 <Instagram size={20} />
-              </a>
+              </a>d
               
             </div>
           </div>
