@@ -25,10 +25,7 @@ const About = () => {
 Minha atuação é baseada em nutrição de precisão, com foco total em resultados reais, sustentáveis e personalizados, promovendo equilíbrio metabólico, saúde plena e longevidade.
             </p>
             <p className="text-[#4B3B2A] mb-8">
-              Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA).<p>
-              - Exames laboratoriais aplicados à prática clínica
-              - Suplementação individualizada
-              - Nutrição funcional com uso de Inteligência Artificial</p>
+              Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA).
             </p>
             <p className="text-[#4B3B2A] mb-8">Minha atuação é direcionada especialmente a pessoas com doenças crônicas ou que desejam envelhecer com saúde, vitalidade e qualidade de vida.
 Baseio meu trabalho em análises clínicas, ferramentas da metabolômica e planos alimentares personalizados, sempre respeitando a individualidade bioquímica de cada paciente.
