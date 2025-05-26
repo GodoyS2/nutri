@@ -30,7 +30,7 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
-                <BookOpen className="text-[#8A7260] mb-2" size={24} />
+                <GraduationCap className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">Pesquisadora e Autora</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
@@ -38,7 +38,7 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
                 <p className="text-center text-[#4B3B2A] font-medium">PhD em Nutrição Funcional</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="300">
-                <Award className="text-[#8A7260] mb-2" size={24} />
+                <GraduationCap className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">Referência em Metabolômica</p>
               </div>
             </div>
