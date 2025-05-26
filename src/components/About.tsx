@@ -35,11 +35,11 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
                 <GraduationCap className="text-[#8A7260] mb-2" size={24} />
-                <p className="text-center text-[#4B3B2A] font-medium">PhD em Nutrição Funcional</p>
+                <p className="text-center text-[#4B3B2A] font-medium">Suplementação individualizada</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="300">
                 <GraduationCap className="text-[#8A7260] mb-2" size={24} />
-                <p className="text-center text-[#4B3B2A] font-medium">Referência em Metabolômica</p>
+                <p className="text-center text-[#4B3B2A] font-medium">Nutrição funcional com uso de Inteligência Artificial</p>
               </div>
             </div>
           </div>
