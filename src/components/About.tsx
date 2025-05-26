@@ -32,7 +32,7 @@ Baseio meu trabalho em análises clínicas, ferramentas da metabolômica e plano
 
 Acredito que corrigir o metabolismo é a chave para prevenir doenças e promover bem-estar de forma duradoura.
 Se você busca um cuidado nutricional profundo, que vai além do sintoma, estou aqui para te acompanhar em uma jornada de transformação verdadeira e sustentável.
-            </p>
+            </p><p>  </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
