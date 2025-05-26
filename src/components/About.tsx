@@ -31,7 +31,7 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
 Baseio meu trabalho em análises clínicas, ferramentas da metabolômica e planos alimentares personalizados, sempre respeitando a individualidade bioquímica de cada paciente.
 
 Acredito que corrigir o metabolismo é a chave para prevenir doenças e promover bem-estar de forma duradoura.
-Se você busca um cuidado nutricional profundo, que vai além do sintoma, estou aqui para te acompanhar em uma jornada de transformação verdadeira e sustentável.s
+Se você busca um cuidado nutricional profundo, que vai além do sintoma, estou aqui para te acompanhar em uma jornada de transformação verdadeira e sustentável.
             </p>
             <p>  
             </p>
