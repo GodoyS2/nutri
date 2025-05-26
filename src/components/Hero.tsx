@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-12" data-aos="fade-right">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#4B3B2A] leading-tight mb-4">
-              O Raio-X do Seu Metabolismo em <span className="text-[#8A7260]">Tempo real</span>
+              Seu metabolismo em  <span className="text-[#8A7260]">Tempo real</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-[#4B3B2A] mb-6">
               Descubra desequilíbrios, carências e impactos do seu estilo de vida com uma análise profunda e personalizada do funcionamento do seu corpo.
