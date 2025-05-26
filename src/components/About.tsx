@@ -21,10 +21,8 @@ const About = () => {
             <h2 className="text-3xl font-bold text-[#4B3B2A] mb-6">Sobre a Profissional</h2>
             <h3 className="text-xl font-semibold text-[#8A7260] mb-4">Dra. Jamille Godoy</h3>
             <p className="text-[#4B3B2A] mb-6">
-              Nutricionista funcional com mais de 15 anos de experiência em saúde integrativa,
-              especialista em Metabolômica aplicada à nutrição clínica. Meu trabalho é baseado na 
-              ciência de precisão, que analisa seus marcadores bioquímicos para criar um plano 
-              totalmente personalizado que atenda às suas necessidades específicas.
+              Sou Jamille Godoy, nutricionista formada desde 2007, com mais de 18 anos de experiência em hemodiálise e 13 anos em nutrição hospitalar.
+Minha atuação é baseada em nutrição de precisão, com foco total em resultados reais, sustentáveis e personalizados, promovendo equilíbrio metabólico, saúde plena e longevidade.
             </p>
             <p className="text-[#4B3B2A] mb-8">
               Com formação internacional e constante atualização científica, trago as mais recentes 
