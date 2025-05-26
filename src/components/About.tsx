@@ -21,19 +21,19 @@ const About = () => {
             <h2 className="text-3xl font-bold text-[#4B3B2A] mb-6">Sobre a Profissional</h2>
             <h3 className="text-xl font-semibold text-[#8A7260] mb-4">Dra. Jamille Godoy</h3>
             <p className="text-[#4B3B2A] mb-6">
-              Nutricionista formada desde 2007, com mais de 18 anos de experiência em hemodiálise e 13 anos em nutrição hospitalar.
-Minha atuação é baseada em nutrição de precisão, com foco total em resultados reais, sustentáveis e personalizados, promovendo equilíbrio metabólico, saúde plena e longevidade.
-            </p>
-            <p className="text-[#4B3B2A] mb-8">
-              Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA).
-            </p>
-            <p>Minha atuação é direcionada especialmente a pessoas com doenças crônicas ou que desejam envelhecer com saúde, vitalidade e qualidade de vida.
-Baseio meu trabalho em análises clínicas, ferramentas da metabolômica e planos alimentares personalizados, sempre respeitando a individualidade bioquímica de cada paciente.
+        Nutricionista formada desde 2007, com mais de 18 anos de experiência em hemodiálise e 13 anos em nutrição hospitalar. Minha atuação é pautada na nutrição de precisão, com foco em resultados reais, sustentáveis e personalizados, promovendo equilíbrio metabólico, saúde plena e longevidade.
 
-Acredito que corrigir o metabolismo é a chave para prevenir doenças e promover bem-estar de forma duradoura.
-Se você busca um cuidado nutricional profundo, que vai além do sintoma, estou aqui para te acompanhar em uma jornada de transformação verdadeira e sustentável.
-            </p>
-            <p>  
+Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA) nas áreas de:
+
+Exames laboratoriais aplicados à prática clínica
+
+Suplementação individualizada
+
+Nutrição funcional com uso de Inteligência Artificial
+
+Minha abordagem é direcionada a pessoas com doenças crônicas ou que buscam envelhecer com saúde, energia e vitalidade. Através de uma análise minuciosa — baseada em exames, dados metabólicos e estratégias nutricionais individualizadas —, trabalho para corrigir desequilíbrios bioquímicos e hormonais, sempre respeitando a individualidade de cada organismo.
+
+Acredito que restaurar o metabolismo é essencial para prevenir doenças e promover um bem-estar verdadeiro e duradouro. Se você busca um cuidado nutricional profundo, que vai além dos sintomas, estou aqui para caminhar com você nessa jornada de transformação. 
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
