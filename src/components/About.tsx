@@ -27,7 +27,7 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
             <p className="text-[#4B3B2A] mb-8">
               Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA).
             </p>
-            <p>Minha atuação é direcionada especialmente a pessoas com doenças crônicas ou que desejam envelhecer com saúde, vitalidade e qualidade de vida.
+            <p className="text-[#4B3B2A] mb-8">Minha atuação é direcionada especialmente a pessoas com doenças crônicas ou que desejam envelhecer com saúde, vitalidade e qualidade de vida.
 Baseio meu trabalho em análises clínicas, ferramentas da metabolômica e planos alimentares personalizados, sempre respeitando a individualidade bioquímica de cada paciente.
 
 Acredito que corrigir o metabolismo é a chave para prevenir doenças e promover bem-estar de forma duradoura.
