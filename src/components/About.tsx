@@ -27,6 +27,8 @@ Minha atuação é baseada em nutrição de precisão, com foco total em resulta
             <p className="text-[#4B3B2A] mb-8">
               Sou pós-graduada em Metabolômica pela Academia Brasileira de Medicina Funcional e Integrativa, com formações complementares pela Faculdade de Saúde Avançada (FSA) nas seguintes áreas:
             </p>
+            <p>Essas formações foram realizadas pela Faculdade de Saúde Avançada (FSA), o que me permite atuar de forma aprofundada na identificação e correção de desequilíbrios bioquímicos, hormonais e nutricionais.
+            </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
