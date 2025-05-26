@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, MessageCircle } from 'lucide-react';
+import { Star, whatsapp, MessageCircle } from 'lucide-react';
 import TestimonialCard from './ui/TestimonialCard';
 
 const Testimonials = () => {
