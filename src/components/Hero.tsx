@@ -27,7 +27,7 @@ Quer entender o que o seu corpo está dizendo? A metabolômica pode traduzir.
               <img 
                 src='/Assets/metabolomica.jpeg'
                 alt="Dra. Jamille Godoy - Nutricionista " 
-                className="relative z-10 rounded-lg w-full h-auto object-cover shadow-lg"
+                className="relative z-10 rounded-lg w-[300px] md:w-[350px] lg:w-[400px] h-auto object-cover shadow-lg"
               />
             </div>
           </div>
