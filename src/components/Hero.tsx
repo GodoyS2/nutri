@@ -22,7 +22,7 @@ Quer entender o que o seu corpo está dizendo? A metabolômica pode traduzir.
             </p>
           </div>
           <div className="md:w-1/2" data-aos="fade-left">
-            <div className="w-[400px] md:w-[450px] lg:w-[500px] relative">
+            <div className="w-[400px] md:w-[450px] lg:w-[500px] relative ml-4 ">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform translate-x-2 translate-y-2"></div>
               <img 
                 src='/Assets/metabolomica.jpeg'
