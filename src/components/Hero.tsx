@@ -22,12 +22,12 @@ Quer entender o que o seu corpo está dizendo? A metabolômica pode traduzir.
             </p>
           </div>
           <div className="md:w-1/2" data-aos="fade-left">
-            <div className="relative">
+            <div className="w-[400px] md:w-[450px] lg:w-[500px] relative">
               <div className="absolute inset-0 bg-[#8A7260] rounded-lg transform translate-x-2 translate-y-2"></div>
               <img 
                 src='/Assets/metabolomica.jpeg'
                 alt="Dra. Jamille Godoy - Nutricionista " 
-                className="relative z-10 rounded-lg w-[400px] md:w-[450px] lg:w-[500px] h-auto "
+                className="relative z-10 rounded-lg w-full h-auto object-cover shadow-lg"
               />
             </div>
           </div>
