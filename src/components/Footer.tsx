@@ -23,7 +23,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              {['Início', 'Sobre', 'Atendimento', 'Curso', 'Lista de Espera'].map((item) => (
+              {['Início', 'Sobre', 'Atendimento'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} 
