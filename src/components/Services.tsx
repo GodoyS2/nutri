@@ -72,7 +72,7 @@ const Services = () => {
               rel="noopener noreferrer"
               className="group inline-flex items-center bg-[#8A7260] text-white px-8 py-4 rounded-md hover:bg-[#4B3B2A] transition-all duration-300 text-lg font-medium"
             >
-              <<img src='/Assets/whatsap.png'    size={24} />
+              <<img src='/Assets/whatsap.png'  className="mr-3 transition-transform duration-300 group-hover:scale-110" size={24} />
               Agende sua consulta
             </a>
           </div>
