@@ -41,7 +41,7 @@ Se você busca um cuidado nutricional profundo, que vai além do sintoma, estou 
                 <p className="text-center text-[#4B3B2A] font-medium">Exames laboratoriais aplicados à prática clínica</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
-                <GraduationCap className="text-[#8A7260] mb-2" size={24} />
+                <img src='/Assets/nutricao.png' className="text-[#8A7260] mb-2" size={24} />
                 <p className="text-center text-[#4B3B2A] font-medium">Suplementação individualizada</p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="300">
