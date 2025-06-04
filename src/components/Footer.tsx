@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">JAMILLE GODOY</h3>
             <p className="mb-4 opacity-90">
-              Nutrição funcional de alto nível com abordagem científica e personalizada 
+              Nutrição funcional com abordagem científica e personalizada 
               para transformar sua saúde de dentro para fora.
             </p>
             <div className="flex space-x-4">
